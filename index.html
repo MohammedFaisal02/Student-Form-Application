@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Student Form</h1>
+        <form id="studentForm">
+            <div class="namecontainer">
+                <span>Name</span>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="agecontainer">
+                <label>Age</label>
+                <input type="number" name="age" id="age" required>
+            </div>
+            <div class="gendercontainer">
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="coursecontainer">
+                <label for="course">Course</label>
+                <select id="course" name="course" required>
+                    <option value=""></option>
+                    <option value="cse">CSE</option>
+                    <option value="ece">ECE</option>
+                    <option value="civil">CIVIL</option>
+                    <option value="mech">MECH</option>
+                    <option value="it">IT</option>
+                    <option value="aids">AIDS</option>
+                </select>
+            </div>
+            <div class="mailcontainer">
+                <span>E-mail</span>
+                <input type="email" id="mail" required>
+            </div>
+            <div class="submitcontainer">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="table-container">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Course</th>
+                    <th>Mail</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+                <!-- Table rows will be added here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
