@@ -25,10 +25,10 @@ This project is a simple web application that allows users to input student deta
 
 ## File Structure
 
-student-form-app/
-├── index.html
-├── style.css
-└── script.js
+student-form-app/n
+├── index.html/n
+├── style.css/n
+└── script.js/n
 
 -index.html: Contains the HTML structure of the form and table.
 -style.css: Contains the CSS for styling the form and table.
