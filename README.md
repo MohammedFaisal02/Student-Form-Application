@@ -19,34 +19,34 @@ This project is a simple web application that allows users to input student deta
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/student-form-app.git
-   cd student-form-app
+   cd student-form-app<br>
    
 2.Open the index.html file in your browser to view and use the application.
 
 ## File Structure
 
-student-form-app\n
-├── index.html/n
-├── style.css/n
-└── script.js/n
+student-form-app<br>
+├── index.html<br>
+├── style.css<br>
+└── script.js<br>
 
--index.html: Contains the HTML structure of the form and table.
--style.css: Contains the CSS for styling the form and table.
--script.js: Contains the JavaScript code to handle form submission and dynamically add rows to the table.
+-index.html: Contains the HTML structure of the form and table.<br>
+-style.css: Contains the CSS for styling the form and table.<br>
+-script.js: Contains the JavaScript code to handle form submission and dynamically add rows to the table.<br>
 
 
 ## Form Details
 
-Name: Input field for the student's name (required).
-Age: Input field for the student's age (required).
-Gender: Radio buttons for selecting the student's gender (required).
-Course: Dropdown menu for selecting the student's course (required).
-E-mail: Input field for the student's email (required).
+Name: Input field for the student's name (required).<br>
+Age: Input field for the student's age (required).<br>
+Gender: Radio buttons for selecting the student's gender (required).<br>
+Course: Dropdown menu for selecting the student's course (required).<br>
+E-mail: Input field for the student's email (required).<br>
 
 ## Table Details
 
-The table displays the following columns: Name, Age, Gender, Course, Mail, and Action.
-The "Action" column contains a delete button to remove the corresponding row from the table.
+The table displays the following columns: Name, Age, Gender, Course, Mail, and Action.<br>
+The "Action" column contains a delete button to remove the corresponding row from the table.<br>
 
 ## Contributing
 
