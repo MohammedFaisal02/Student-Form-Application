@@ -25,7 +25,7 @@ This project is a simple web application that allows users to input student deta
 
 ## File Structure
 
-student-form-app/n
+student-form-app\n
 ├── index.html/n
 ├── style.css/n
 └── script.js/n
